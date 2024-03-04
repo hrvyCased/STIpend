@@ -19,24 +19,23 @@ public class MainActivity extends AppCompatActivity {
         Button getLoanBtn = findViewById(R.id.getLoanBtn);
         Button otherBtn = findViewById(R.id.otherBtn);
         profileImg.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
-            startActivity(intent);
+            openIntent(ProfileActivity.class);
         });
         balanceBtn.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, BalanceActivity.class);
-            startActivity(intent);
+            openIntent(BalanceActivity.class);
         });
         payBalanceBtn.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, PaymentActivity.class);
-            startActivity(intent);
+            openIntent(PaymentActivity.class);
         });
         getLoanBtn.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, GetLoanActivity.class);
-            startActivity(intent);
+            openIntent(GetLoanActivity.class);
         });
         otherBtn.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, OtherActivity.class);
-            startActivity(intent);
+            openIntent(OtherActivity.class);
         });
+    }
+    protected void openIntent(Class<?> cls) {
+        Intent intent = new Intent(MainActivity.this, cls);
+        startActivity(intent);
     }
 }
