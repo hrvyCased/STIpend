@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">STIpend</string>
+    <string name="check_balance">Check Balance</string>
+    <string name="pay_balance">Pay balance</string>
+    <string name="student_loans">Student loans</string>
+    <string name="developer">Developer</string>
+    <string name="logout">logout</string>
+    <string name="amount_payable">Amount Payable</string>
+    <string name="lorem_ipsum_dolor_sit_amet">Lorem Ipsum dolor sit amet</string>
+    <string name="pay_your_balance">Pay Your Balance</string>
+    <string name="pay">PAY</string>
+    <string name="get_student_loan">Get Student Loan</string>
+    <string name="_50_000_00">₱50,000.00</string>
+    <string name="amount">Amount</string>
+    <string name="john_harvey_salinas">John Harvey Salinas</string>
+    <string name="_02000328507">02000328507</string>
+    <string name="this_app_was_developed_by_njohn_harvey_salinas_nfrom_ict_201">This app was developed by:\nJohn Harvey Salinas\nFrom: ICT - 201</string>
+    <string name="go_back">Go back</string>
+    <string name="other">Help</string>
+    <string name="help_faqs">Help / FAQs</string>
+    <string name="filler">•Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed ut lectus quis est suscipit eleifend. Nullam vel quam at felis laoreet eleifend. Integer ullamcorper orci eget felis porta, nec hendrerit justo tincidunt. Quisque quis nisi nec urna consectetur consequat. Duis et velit eu lorem tincidunt scelerisque. Integer euismod auctor orci, nec ultricies velit pulvinar sit amet. Sed scelerisque magna eu tellus congue, a fermentum enim ullamcorper.</string>
+    <string name="check_balance_this_feature_allows_you_to_check_your_current_balance">What are the features?\n• Check Balance- This feature allows you to check your current balance.</string>
+    <string name="pay_balance_this_feature_allows_you_to_pay_your_balance_n_nif_you_have_no_balance_then_it_won_t_accept_the_payment_n_njust_click_on_the_submit_pay_button_to_complete_the_payment_action">• Pay Balance- This feature allows you to pay your balance.\n\nIf you have no balance then it won\'t accept the payment.\n\nJust click on the submit/pay button to complete the payment action.</string>
+    <string name="student_loans_this_feature_allows_you_to_get_a_student_loan_n_nif_you_already_have_an_outstanding_balance_equal_to_or_greater_than_1_peso_you_are_not_allowed_to_get_a_student_loan_n_nour_program_allows_you_to_borrow_a_maximum_amount_of_50_000_pesos">• Student Loans- This feature allows you to get a student loan.\n\nIf you already have an outstanding balance equal to or greater than 1 peso, you are not allowed to get a student loan.\n\nOur program allows you to borrow a maximum amount of 50,000 pesos.</string>
+    <string name="user_alpha">TestUser 01</string>
+</resources>

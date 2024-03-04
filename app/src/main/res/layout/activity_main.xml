@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/stiPend"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/balanceBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileImg"
+        app:srcCompat="@drawable/sti_logo" />
+
+    <ImageView
+        android:id="@+id/profileImg"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="138dp"
+        app:layout_constraintBottom_toTopOf="@+id/stiPend"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_pic" />
+
+    <Button
+        android:id="@+id/balanceBtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/sti_yellow"
+        android:fontFamily="@font/mont"
+        android:text="@string/check_balance"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/payBalanceBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stiPend" />
+
+    <Button
+        android:id="@+id/payBalanceBtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/sti_yellow"
+        android:fontFamily="@font/mont"
+        android:text="@string/pay_balance"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/getLoanBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/balanceBtn" />
+
+    <Button
+        android:id="@+id/getLoanBtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/sti_yellow"
+        android:fontFamily="@font/mont"
+        android:text="@string/student_loans"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/otherBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payBalanceBtn" />
+
+    <Button
+        android:id="@+id/otherBtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="232dp"
+        android:backgroundTint="@color/sti_yellow"
+        android:fontFamily="@font/mont"
+        android:text="@string/other"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getLoanBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
